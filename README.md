@@ -1,5 +1,5 @@
 # Landing Page
 
-This is a just a simple webpage for html, css practice.
+This is just a simple webpage that I made for html and css practice.
 
 ![The full website](./websitepage.jpeg)
