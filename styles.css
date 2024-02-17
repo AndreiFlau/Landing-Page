@@ -22,6 +22,7 @@ header
 	margin-top: -30px;
 }
 
+
 .links
 {
 	display: flex;
@@ -53,7 +54,7 @@ button
 {
 	background-color: #3882f6;
 	color: #f9faf8;
-	border-radius: 8%;
+	border-radius: 10px;
 	width: 100px;
 	height: 30px;
 	border: 0px;
@@ -89,38 +90,105 @@ button
 
 .body-second h1
 {
+	display: flex;
+	justify-content: center;
 	font-size: 36px;
 	font-weight: bolder;
 	color: #1f2937;
 }
 
+
+.images-container
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	gap: 50px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.images-container li
+{
+	text-align: center;
+}
+
+.images-container li p
+{
+	text-align: center;
+	width: 200px;
+	word-wrap: break-word; 
+}
+
+.images-container img
+{
+	display: flex;
+	border: 2px #3882f6;
+	border-style: solid;
+	border-radius: 10%;
+	width: 250px;
+	height: 200px;
+}
+
+
 .body-third
 {
 	background-color: #e5e7eb;
 	color: #1f2937;
+	padding: 50px;
+}
+
+.body-third h1
+{
 	font-style: italic;
 	font-weight: lighter;
+	display: flex;
+	font-size: 25px;
+	justify-content: flex-start;
+	text-align: center;
 }
 
 .body-third p
 {
 	font-style: normal;
 	font-weight: bold;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .body-fourth
 {
+	padding: 40px;
+	margin: 100px;
 	background-color: #3882f6;
+	color: #e5e7eb;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
 }
 
-.body-fourth button
+.body-fourth .text-container
+{
+	align-self: flex-start;
+}
+
+.body-fourth .button-container
 {
 	border: 2px;
 	border-style: solid;
 	border-color: #e5e7eb;
+	align-self: flex-end;
+	margin-bottom: 30px;
+	margin-right: 100px;
+	border-radius: 10px;
 }
 
 footer
 {
+	text-align: center;
+	color: #e5e7eb;
 	background-color: #1f2937;
+	padding: 30px;
 }
